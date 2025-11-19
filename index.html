@@ -13,7 +13,7 @@
         <div class="container">
             <div class="header__container">
                 <nav class="header__nav">
-                    <a href="/">
+                    <a class="header__logo" href="/">
                         <img src="./css/images/logo.svg" alt="Логотип гурту" />
                     </a>
                     <ul class="header__menu-list">
@@ -30,14 +30,11 @@
                             <a class="header__menu-link" href="/">Контакти</a>
                         </li>
                     </ul>
-
                 </nav>
                 <button class="header__burger-button burger-button visible-mobile" type="button"
                     onclick="mobileOverlay.showModal()">
                     <span class="visually-hidden">Відкрити навігаційне меню</span>
                 </button>
-                
-
             </div>
         </div>
     </header>
@@ -133,7 +130,7 @@
                             інструменти.
                         </p>
                     </div>
-                    <img src="./css/images/history.png" alt="Виступ гурту">
+                    <img class="history-section__image" src="./css/images/history.png" alt="Виступ гурту">
                 </div>
                 <div class="history-section__text">
                     <p>Кожен наш виступ — це не просто концерт, а справжня подія, де
@@ -168,7 +165,6 @@
                             <label class="input__label" for="user-message">Повідомлення</label>
                             <textarea class="input__control input__group" name="user-message" id="user-message"
                                 placeholder="Розкажи про свої ідеї..." rows="6"></textarea>
-   
                         </div>
                         <button class="contact-form__button button" type="submit">Відправити</button>
                     </form>
